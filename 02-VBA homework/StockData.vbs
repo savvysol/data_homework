@@ -26,11 +26,12 @@ LastCol = ws.Cells(1, Columns.Count).End(xlToLeft).Column
      ws.Range("N1") = "Close End of the Year"
      ws.Range("O1") = "Change"
      ws.Range("P1") = "Change %"
-     ws.Range("K1:P1").Font.FontStyle = "Bold"
-     ws.Range("K1:P1").Interior.Color = RGB(200, 200, 200)
-     ws.Columns("K:P").AutoFit
-     ws.Range("M:O").Style = "Currency"
-     ws.Range("P:P").Style = "Percent"
+     
+          ws.Range("K1:P1").Font.FontStyle = "Bold"
+          ws.Range("K1:P1").Interior.Color = RGB(200, 200, 200)
+          ws.Columns("K:P").AutoFit
+          ws.Range("M:O").Style = "Currency"
+          ws.Range("P:P").Style = "Percent"
 
 'Loop Through Tickers for each change
 
